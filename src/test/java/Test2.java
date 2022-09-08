@@ -26,8 +26,8 @@ public class Test2
         String platformName = System.getenv("HYPEREXECUTE_PLATFORM") != null ? System.getenv("HYPEREXECUTE_PLATFORM") : platform;
         
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("build", "[HyperExecute - 2] Demonstration of the TestNG Framework");
-        capabilities.setCapability("name", "[HyperExecute - 2] Demonstration of the TestNG Framework");
+        capabilities.setCapability("build", "[HyperExecute - 2] HYEBuild01");
+        capabilities.setCapability("name", "[HyperExecute - 2] HYETest02");
 
         capabilities.setCapability("platform", System.getenv("HYPEREXECUTE_PLATFORM"));
         capabilities.setCapability("browserName", browser);
